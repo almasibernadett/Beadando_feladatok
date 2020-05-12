@@ -20,7 +20,6 @@ for i in range(n):
     ketto=v//2
     v=v%2
     egy=v
-#    print("{}db 100Ft; {}db 50Ft; {}db 10Ft; {}db 5Ft; {}db 2Ft; {}db 1Ft".format(szaz,otven,tiz,ot,ketto,egy))
     if szaz!=0:
         res+=("{}db 100Ft".format(szaz))
     if otven!=0:
